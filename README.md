@@ -6,6 +6,8 @@ Suckless DWM (Dinamic Windows Manager) with Windows XP theme
 
 Installation
 ------------
+    git clone https://github.com/mocomauricio/dwmxp.git
+    cd dwmxp
     cp config.def.h config.h
     sudo make clean install
     
@@ -21,10 +23,10 @@ Edit ~/.dwm/autostart.sh and add your favorite applications, for example:
 
     #!/bin/sh
     start-pulseaudio-x11 &
-	setxkbmap es &
-	nitrogen --restore &
-	volumeicon &
-	cmst -m &
+    setxkbmap es &
+    nitrogen --restore &
+    volumeicon &
+    cmst -m &
 
 Running dwm
 -----------
