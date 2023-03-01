@@ -34,6 +34,7 @@ Add the following line to your .xinitrc to start dwm using startx:
     
 Extra
 -----
-Wallpaper: bliss.jpg
-Theme: https://www.gnome-look.org/p/1230964/
-icons: https://www.gnome-look.org/p/1925937
+
+- Wallpaper: bliss.jpg
+- Theme: https://www.gnome-look.org/p/1230964/
+- Icons: https://www.gnome-look.org/p/1925937
