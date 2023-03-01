@@ -12,11 +12,13 @@ Installation
 Configuration
 -------------
 Create autostart script
+
     mkdir ~/.dwm/
     echo "#!/bin/bash" > ~/.dwm/autostart.sh
     sudo chmod +x ~/.dwm/autostart.sh
 
 Edit ~/.dwm/autostart.sh and add your favorite applications, for example:
+
     #!/bin/sh
     start-pulseaudio-x11 &
 	setxkbmap es &
@@ -27,6 +29,7 @@ Edit ~/.dwm/autostart.sh and add your favorite applications, for example:
 Running dwm
 -----------
 Add the following line to your .xinitrc to start dwm using startx:
+
     exec dwm
     
 Extra
