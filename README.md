@@ -14,7 +14,7 @@ Configuration
 Create autostart script
 
     mkdir ~/.dwm/
-    echo "#!/bin/bash" > ~/.dwm/autostart.sh
+    echo "#!/bin/sh" > ~/.dwm/autostart.sh
     sudo chmod +x ~/.dwm/autostart.sh
 
 Edit ~/.dwm/autostart.sh and add your favorite applications, for example:
